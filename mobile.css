@@ -1,0 +1,52 @@
+@media (max-width: 576px) {
+  /*nav bar*/
+  .nav-a {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-container a,
+  .nav-container a:last-child,
+  .nav-container a:nth-child(2) {
+    border: none;
+  }
+  /* job info */
+  .job-container {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+  /* chứng chỉ, giải thưởng */
+  .certificate-all {
+    grid-template-columns: 1fr;
+    padding: 0 50px;
+  }
+  .certificate-img2,
+  .certificate-noidung2 {
+    margin-left: 0;
+  }
+  .certificate1 {
+    border-right: none;
+    border-bottom: solid #d6c08d;
+  }
+  .certificate2 {
+    margin-bottom: 0;
+  }
+  .certificate3 {
+    grid-column: 1/2;
+    border-top: solid #d6c08d;
+  }
+  /* dự án */
+  .project-all {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+  /* footer */
+  #footer ul {
+    padding-left: 0;
+  }
+  #footer li {
+    padding: 20px 10px;
+  }
+  #footer span {
+    display: none;
+  }
+}
